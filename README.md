@@ -2,7 +2,7 @@
 
 
 
-!!! DISCLAIMER!!!
+# !!! DISCLAIMER!!!
 
 This object is protected by copyright and/or related rights. You are free to use this item in any manner permitted by the copyright and related rights legislation that applies to your use. Furthermore, no authorization is required from the owner(s) of the rights for educational uses. For other uses it is necessary to obtain permission from the rights holder(s).
 
@@ -16,7 +16,7 @@ Further information on the copyright of this object can be found on the website 
 
 
 
-REVERSE SHELL:
+## REVERSE SHELL:
 
 At the moment it only works on a local network, to use it remotely you must use an SSH connection.
 The terminal used is very bland, in tools like "nano" the shortcuts are blocked. Clarification if you open for example an image with "display img.jpg" this will open on the host computer and not on the client, furthermore various shortcuts like "tab" for automatic completion do not work.
@@ -25,14 +25,14 @@ There are also the
 
 
 
-KEYLOGGER:
+## KEYLOGGER:
 
 The keylogger however works well.
 
 
 
 
-TEST:
+## TEST:
 
 The tests were done on my PC, Ubuntu client machine and Kali host machine (on VirtualBox).
 Not tested on Windows or Mac at the moment so I can tell if they work but I have provided some pseudo-working codes anyway.
@@ -40,7 +40,7 @@ Not tested on Windows or Mac at the moment so I can tell if they work but I have
 
 
 
-POSSIBLE IMPROVEMENTS:
+# POSSIBLE IMPROVEMENTS:
 
 (1) Improve the terminal on the Host machine, perhaps with tmux or similar tools;
 
@@ -52,7 +52,7 @@ POSSIBLE IMPROVEMENTS:
 
 
 
-How to make it run?
+# How to make it run?
 
 (1) Take the install.py file (located in lib/), put the IP of the host machine (I therefore put the IP of my Kali machine), the port if you want, leave the one I put.
 
